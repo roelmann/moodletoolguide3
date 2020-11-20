@@ -28,7 +28,7 @@
         <status>no</status>
         <desc>None. This is not a learning activity, but information transfer.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/File_resource</additionalurl>
 </tool>
 
@@ -60,7 +60,7 @@
         <status>no</status>
         <desc>None. This is not a learning activity, but information transfer.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Folder_resource</additionalurl>
 </tool>
 
@@ -92,7 +92,7 @@
         <status>no</status>
         <desc>None. This is not a learning activity, but information transfer.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Page_resource</additionalurl>
 </tool>
 
@@ -124,7 +124,7 @@
         <status>no</status>
         <desc>None. This is not a learning activity, but information transfer.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Book_resource</additionalurl>
 </tool>
 
@@ -156,7 +156,7 @@
         <status>maybe</status>
         <desc>6/6 Can do all of the above, depending on where you link to.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/URL_resource</additionalurl>
 </tool>
 
@@ -188,7 +188,7 @@
         <status>yes</status>
         <desc>5/6 Understand, Apply, Analyse, Evaluate, Create.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Wiki_module</additionalurl>
 </tool>
 
@@ -220,7 +220,7 @@
         <status>yes</status>
         <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Glossary_module</additionalurl>
 </tool>
 
@@ -252,7 +252,7 @@
         <status>yes</status>
         <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Database_activity_module</additionalurl>
 </tool>
 
@@ -284,7 +284,7 @@
         <status>maybe</status>
         <desc>2/6 Indirectly helps student analyse and evaluate the learning.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Survey_module</additionalurl>
 </tool>
 
@@ -316,7 +316,7 @@
         <status>maybe</status>
         <desc>6/6 Can do all 6 but this requires you to be creative in your approach.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Feedback_module</additionalurl>
 </tool>
 
@@ -348,7 +348,7 @@
         <status>maybe</status>
         <desc>5/6 Can do 5 but this requires you to be creative in your usage.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Choice_module</additionalurl>
 </tool>
 
@@ -380,7 +380,7 @@
         <status>maybe</status>
         <desc>6/6 Can do all 6 but this requires you to be creative in your assessment.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Quiz_module</additionalurl>
 </tool>
 
@@ -412,7 +412,7 @@
         <status>maybe</status>
         <desc>6/6 Can do all 6 but this requires you to be creative in your assessment.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Lesson_module</additionalurl>
 </tool>
 
@@ -444,7 +444,7 @@
         <status>maybe</status>
         <desc>6/6 Indirectly. Depends on your assessment design.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Assignment_module</additionalurl>
 </tool>
 
@@ -476,7 +476,7 @@
         <status>maybe</status>
         <desc>6/6 Indirectly. Depends on your assessment design.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Workshop_module</additionalurl>
 </tool>
 
@@ -508,7 +508,7 @@
         <status>maybe</status>
         <desc>6/6 Can do all 6 but requires you to creatively design a learning object.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/SCORM_module</additionalurl>
 </tool>
 
@@ -540,7 +540,7 @@
         <status>yes</status>
         <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Chat_module</additionalurl>
 </tool>
 
@@ -572,7 +572,7 @@
         <status>yes</status>
         <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Forum_module</additionalurl>
 </tool>
 
@@ -604,7 +604,7 @@
         <status>maybe</status>
         <desc>6/6 This can be anything – depends on the connected Tool.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/External_tool</additionalurl>
 </tool>
 
@@ -636,7 +636,7 @@
         <status>no</status>
         <desc>None. This is not a learning activity.</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://docs.moodle.org/en/Label</additionalurl>
 </tool>
 
@@ -668,7 +668,7 @@
         <status>yes</status>
         <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://moodle.org/plugins/mod_bigbluebuttonbn</additionalurl>
 </tool>
 
@@ -764,7 +764,7 @@
         <status>yes</status>
         <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
     </Blooms>
-    <additional></additional>
+    <additional>''</additional>
     <additionalurl>https://moodle.org/plugins/mod_moodleoverflow</additionalurl>
 </tool>
 
