@@ -1,0 +1,674 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<tools>
+<tool>
+    <toolname>File</toolname>
+    <tooldesc>Upload a file eg. Word, Powerpoint, PDF</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy. Like an email attachment, but can your document stand on its own?</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Yes. Only tutors can upload files to modules, so this is definitely a "push" tool.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Maybe. Use to give a task. Student files can be collected through forums or assignments.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. Its a distribution tool. No option for interaction or 2-way communication.</desc>
+    </Comms>
+    <Create>
+        <status>maybe</status>
+        <desc>Maybe. Use to give a task. Student files can be collected through forums or assignments.</desc>
+    </Create>
+    <Blooms>
+        <status>no</status>
+        <desc>None. This is not a learning activity, but information transfer.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/File_resource</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Folder</toolname>
+    <tooldesc>Upload a group of files</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy. Like an email attachment, but can your documents stand on their own?</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Yes. Only tutors can upload a folder of files, so this is definitely a "push" tool.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Maybe. Use to give a task. Student files can be collected through forums or assignments.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. Its a distribution tool. No option for interaction or 2-way communication.</desc>
+    </Comms>
+    <Create>
+        <status>maybe</status>
+        <desc>Maybe. Use to give a task. Student files can be collected through forums or assignments.</desc>
+    </Create>
+    <Blooms>
+        <status>no</status>
+        <desc>None. This is not a learning activity, but information transfer.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Folder_resource</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Page</toolname>
+    <tooldesc>Create a webpage in Moodle</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy, just create the page using the HTML editor, adding multi- media if needed.</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Yes. Only teachers can create the page. So definitely a push-tool.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Maybe. Use to give task. Collect student files through Forum or Assignment.</desc>
+    </Assess>
+    <Comms>
+        <status>maybe</status>
+        <desc>Maybe. Embed or link to interactive web2.0 widgets into the page eg Voicethread.</desc>
+    </Comms>
+    <Create>
+        <status>maybe</status>
+        <desc>Maybe. Use to give a task. Student files can be collected through forums or assignments.</desc>
+    </Create>
+    <Blooms>
+        <status>no</status>
+        <desc>None. This is not a learning activity, but information transfer.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Page_resource</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Book</toolname>
+    <tooldesc>Create a series of linked chapters as webapges</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy, just create a set of pages using the editor. Embed media if required.</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>A way to present information to students. Can be printed by chapter or as full book.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Maybe. Use to give a task. Student files can be collected through forums or assignments.</desc>
+    </Assess>
+    <Comms>
+        <status>maybe</status>
+        <desc>Maybe. Embed or link to interactive web2.0 widgets into the page eg Voicethread.</desc>
+    </Comms>
+    <Create>
+        <status>maybe</status>
+        <desc>Maybe. You can link to external collaborative sites e.g. GoogleDocs, or wikis and blogs.</desc>
+    </Create>
+    <Blooms>
+        <status>no</status>
+        <desc>None. This is not a learning activity, but information transfer.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Book_resource</additionalurl>
+</tool>
+
+<tool>
+    <toolname>URL</toolname>
+    <tooldesc>Create a link to a webpage</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy, find the web address (aka url – the bit that starts with http://), copy it, paste it.</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Very easy way of directing students to information outside of Moodle.</desc>
+    </Xfer>
+    <Assess>
+        <status>no</status>
+        <desc>Not directly. Option is to link to external activities such as student e- portfolios and blogs.</desc>
+    </Assess>
+    <Comms>
+        <status>maybe</status>
+        <desc>Maybe. Link to external tools eg Google Calendar, groups, blogs or wikis.</desc>
+    </Comms>
+    <Create>
+        <status>maybe</status>
+        <desc>Maybe. Use to give a task. Student files can be collected through forums or assignments.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 Can do all of the above, depending on where you link to.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/URL_resource</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Wiki</toolname>
+    <tooldesc>Use to enable collaborative page creation</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>maybe</status>
+        <desc>Tricky. Decide on individual and group settings. Can be hard to master. Get some training.</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Yes. Use as information site. Allow editing only by teachers or by any participant.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Wiki is versatile and allows this with some planning, e.g. design a formative assessment activity.</desc>
+    </Assess>
+    <Comms>
+        <status>maybe</status>
+        <desc>Not suited for discussions. Use in brainstorming, planning, collaborative writing,...</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Yes. Students can collaborate and explore topics, discuss them and write together.</desc>
+    </Create>
+    <Blooms>
+        <status>yes</status>
+        <desc>5/6 Understand, Apply, Analyse, Evaluate, Create.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Wiki_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Glossary</toolname>
+    <tooldesc>Use for learning activities that gaterh resources or present information</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Default settings are good. Try to set it so the author’s name is shown.</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Use glossary to define terms or present info. Better yet, let the students add to it.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Glossary is versatile and allows this. But you need to design the right learning activity.</desc>
+    </Assess>
+    <Comms>
+        <status>maybe</status>
+        <desc>Not suited for discussions. Students can read other entries and comment or rate.</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Tutors and learners can contribute to the glossary, and can also add reviews/comments to entries</desc>
+    </Create>
+    <Blooms>
+        <status>yes</status>
+        <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Glossary_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Database</toolname>
+    <tooldesc>Allow students to collect, share and search created artifacts</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>no</status>
+        <desc>Tricky to set up. Know what you want before you build. Get some training.</desc>
+    </Ease>
+    <Xfer>
+        <status>maybe</status>
+        <desc>Can be used for teacher to present info, but better to let the students add to it.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Database is versatile and allows this. But you need to design the right learning activity.</desc>
+    </Assess>
+    <Comms>
+        <status>maybe</status>
+        <desc>Not suited for discussions. Students can read other entries and comment or rate.</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Students can share info and files in searchable way. Create joint collections.</desc>
+    </Create>
+    <Blooms>
+        <status>yes</status>
+        <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Database_activity_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Survey</toolname>
+    <tooldesc>Use to gather data from students about teaching of the course</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy. Choose from 3 types to assess Attitudes, Incidents and Constructivism.</desc>
+    </Ease>
+    <Xfer>
+        <status>no</status>
+        <desc>No. The survey tool is not a distribution channel.</desc>
+    </Xfer>
+    <Assess>
+        <status>no</status>
+        <desc>Not directly. Used for gathering feedback to help improve the course.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. Only allows one way communication from student to teacher.</desc>
+    </Comms>
+    <Create>
+        <status>no</status>
+        <desc>No this is an individual activity, not a group activity.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>2/6 Indirectly helps student analyse and evaluate the learning.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Survey_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Feedback</toolname>
+    <tooldesc>Use to gather data from students on any topic</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>maybe</status>
+        <desc>Easy but takes time. Configure and then add questions.</desc>
+    </Ease>
+    <Xfer>
+        <status>no</status>
+        <desc>No. The Feedback tool is not a distribution channel.</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Yes. Use to have students self- assess their understanding before and after.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. Only allows one way communication from student to teacher.</desc>
+    </Comms>
+    <Create>
+        <status>no</status>
+        <desc>No this is an individual activity, not a group activity.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 Can do all 6 but this requires you to be creative in your approach.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Feedback_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Choice</toolname>
+    <tooldesc>Use for student decision making, voting and topic selection.</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy. Define the options and whether you want to limit numbers per choice or not.</desc>
+    </Ease>
+    <Xfer>
+        <status>no</status>
+        <desc>No. The Choice is best assessing and querying the students on a topic.</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Use choice to quickly test understanding, like mulitple choice questions.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. Tip: Use the forum or chat instead.</desc>
+    </Comms>
+    <Create>
+        <status>no</status>
+        <desc>No. Tip: Use forums, glossaries or wikis instead.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>5/6 Can do 5 but this requires you to be creative in your usage.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Choice_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Quiz</toolname>
+    <tooldesc>Use to assess learning - formative or summative</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>no</status>
+        <desc>Tricky and takes time. Set up quiz, then questions. Consider your categories.</desc>
+    </Ease>
+    <Xfer>
+        <status>no</status>
+        <desc>The quiz is aimed at assessment, not as distribution channel. Tip: use as self-diagnostic.</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Quiz can be timed and secure. Has essay, mc, true/false, matching, and other questions.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. Tip: Use forums instead.</desc>
+    </Comms>
+    <Create>
+        <status>no</status>
+        <desc>No. Tip: Use forums or wikis instead.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 Can do all 6 but this requires you to be creative in your assessment.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Quiz_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Lesson</toolname>
+    <tooldesc>Use for presenting branched scenarios or testing</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>maybe</status>
+        <desc>It can be tricky to set up, make sure you plan the lesson first. Worth the effort.</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Great to present information in a branched, guided way. Implement adaptive learning.</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Yes, allows grading. Use as branched quiz, scenario, case study, role play.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No this is an individual activity, not a group activity.</desc>
+    </Comms>
+    <Create>
+        <status>no</status>
+        <desc>No this is an individual activity, not a group activity.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 Can do all 6 but this requires you to be creative in your assessment.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Lesson_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Assignment</toolname>
+    <tooldesc>Use to collect, assess and provide feedback on assignments</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy. Choose from 4 types. Both online and offline assignments are possible.</desc>
+    </Ease>
+    <Xfer>
+        <status>no</status>
+        <desc>No. However can include contextual content for the assignment.</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Yes. Set due dates and maximum grades. Collect assignments and provide feedback.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. Only allows very limited interaction between teacher and student.</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Assignments can be set up as group submissions</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 Indirectly. Depends on your assessment design.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Assignment_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Workshop</toolname>
+    <tooldesc>Use to collect, assess and generate peer reviews of student work</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>no</status>
+        <desc>Tricky and takes planning and time. 4 stages to follow for setting it up.</desc>
+    </Ease>
+    <Xfer>
+        <status>no</status>
+        <desc>No. Better to use another tool for this.</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Yes. Students can be assessed on their contribution and on their review of others.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. Allows for feedback but overall limited interaction.</desc>
+    </Comms>
+    <Create>
+        <status>maybe</status>
+        <desc>No. Currently it does not allow group assignments. Use forum or wiki.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 Indirectly. Depends on your assessment design.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Workshop_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>SCORM</toolname>
+    <tooldesc>Use to present content, media and assess retention</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>maybe</status>
+        <desc>Can be tricky to make before adding to Moodle, uses 3rd party application.</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Yes. Great for presenting multimedia content and animations.</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Yes, allows grading. Can embed questions and interactive challenges.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. this is an individual activity, not a group activity.</desc>
+    </Comms>
+    <Create>
+        <status>no</status>
+        <desc>No this is an individual activity, not a group activity.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 Can do all 6 but requires you to creatively design a learning object.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/SCORM_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Chat</toolname>
+    <tooldesc>Hold real-time text chat discussions</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy to set up, requires some effort to manage.</desc>
+    </Ease>
+    <Xfer>
+        <status>maybe</status>
+        <desc>Use for invited speakers. High speed message volume. Risk of non-interaction.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Chat is versatile. Can use in formative assessment activities.</desc>
+    </Assess>
+    <Comms>
+        <status>yes</status>
+        <desc>Yes. Hold debates, small group review sessions and hold drop-in session for Q+A.</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Yes. Students can collaborate and explore topics, discuss them and write together.</desc>
+    </Create>
+    <Blooms>
+        <status>yes</status>
+        <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Chat_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Forum</toolname>
+    <tooldesc>Use for many types of learning activities</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy. Forum has usable default settings. A name and description is enough.</desc>
+    </Ease>
+    <Xfer>
+        <status>maybe</status>
+        <desc>Share resources as links or files. High message volume? Risk of losing info.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Forum is versatile and allows this, eg. design a formative assessment activity.</desc>
+    </Assess>
+    <Comms>
+        <status>yes</status>
+        <desc>Yes. Students communicate with you and peers. Interact as a class or in groups.</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Yes. Students can collaborate and explore topics, discuss them and write together.</desc>
+    </Create>
+    <Blooms>
+        <status>yes</status>
+        <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Forum_module</additionalurl>
+</tool>
+
+<tool>
+    <toolname>External Tool LTI</toolname>
+    <tooldesc>Use to connect to a 3rd party learning activity</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>maybe</status>
+        <desc>Requires access to the external tool before configuring.</desc>
+    </Ease>
+    <Xfer>
+        <status>maybe</status>
+        <desc>This depends on the tool that it connects to – it could be anything.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Yes, but the Tool must pass back the grades into Moodle to be recorded.</desc>
+    </Assess>
+    <Comms>
+        <status>maybe</status>
+        <desc>Maybe. If the tool provides options for interaction and communication.</desc>
+    </Comms>
+    <Create>
+        <status>maybe</status>
+        <desc>Maybe. If the tool is a collaborative environment like Mediawiki or Drupal.</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 This can be anything – depends on the connected Tool.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/External_tool</additionalurl>
+</tool>
+
+<tool>
+    <toolname>Label</toolname>
+    <tooldesc>Insert text and multimedia</tooldesc>
+    <source>Core</source>
+    <Ease>
+        <status>yes</status>
+        <desc>Easy, improve the course page layout.</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>Yes. Only teachers can insert content. So definitely a push-tool.</desc>
+    </Xfer>
+    <Assess>
+        <status>no</status>
+        <desc>Not directly. To be used to describe a task or transmit information.</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>No. It's a distribution tool. No option for interaction.</desc>
+    </Comms>
+    <Create>
+        <status>no</status>
+        <desc>Not directly. To be used to describe a task or transmit information.</desc>
+    </Create>
+    <Blooms>
+        <status>no</status>
+        <desc>None. This is not a learning activity.</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://docs.moodle.org/en/Label</additionalurl>
+</tool>
+
+<tool> <!-- Copy this for each tool -->
+    <toolname>master</toolname>
+    <tooldesc></tooldesc>
+    <source>Core</source> <!-- Core, Plugin, Catalyst -->
+    <Ease>
+        <status></status> <!-- yes, maybe, no -->
+    <desc></desc>
+    </Ease>
+    <Xfer>
+        <status></status>
+        <desc></desc>
+    </Xfer>
+    <Assess>
+        <status></status>
+        <desc></desc>
+    </Assess>
+    <Comms>
+        <status></status>
+        <desc></desc>
+    </Comms>
+    <Create>
+        <status></status>
+        <desc></desc>
+    </Create>
+    <Blooms>
+        <status></status>
+        <desc></desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl></additionalurl>
+</tool>
+</tools>
