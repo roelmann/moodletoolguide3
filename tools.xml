@@ -641,34 +641,162 @@
 </tool>
 
 <tool> <!-- Copy this for each tool -->
-    <toolname>master</toolname>
-    <tooldesc></tooldesc>
-    <source>Core</source> <!-- Core, Plugin, Catalyst -->
+    <toolname>WebConference</toolname>
+    <tooldesc>eg BigBlueButton/Zoom</tooldesc>
+    <source>Catalyst</source> <!-- Core, Plugin, Catalyst -->
     <Ease>
-        <status></status> <!-- yes, maybe, no -->
-    <desc></desc>
+        <status>yes</status> <!-- yes, maybe, no -->
+        <desc>The plugins are straightforward to set up scheduled or adhoc conferences.</desc>
     </Ease>
     <Xfer>
-        <status></status>
-        <desc></desc>
+        <status>yes</status>
+        <desc>Web conference can be an ideal way to share information with learners, usually allowing screenshare as well as camera/chat.</desc>
     </Xfer>
     <Assess>
-        <status></status>
-        <desc></desc>
+        <status>maybe</status>
+        <desc>Generally good for general formative Q+A sessions, not really suitable for summative assessment (possible proctoring use case)</desc>
     </Assess>
     <Comms>
-        <status></status>
-        <desc></desc>
+        <status>yes</status>
+        <desc>This is the primary purpose of the webconferencing tools, allowing synchronous communication and interaction</desc>
     </Comms>
     <Create>
-        <status></status>
-        <desc></desc>
+        <status>maybe</status>
+        <desc>Webconference tools can be used to record sessions and so co-create resources to be shared later</desc>
     </Create>
     <Blooms>
-        <status></status>
-        <desc></desc>
+        <status>yes</status>
+        <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
     </Blooms>
     <additional></additional>
-    <additionalurl></additionalurl>
+    <additionalurl>https://moodle.org/plugins/mod_bigbluebuttonbn</additionalurl>
+</tool>
+
+<tool> <!-- Copy this for each tool -->
+    <toolname>H5P</toolname>
+    <tooldesc>A multifacet interactive resource creation tool</tooldesc>
+    <source>Catalyst</source> <!-- Core, Plugin, Catalyst -->
+    <Ease>
+        <status>no</status> <!-- yes, maybe, no -->
+        <desc>While very powerful and worth the effort, some H5P activities can be complex and time consuming to create</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>H5P activities include presentations and documentation activity types</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Quizes and interactive elements can be set up, interacting with Moodle gradebook</desc>
+    </Assess>
+    <Comms>
+        <status>no</status>
+        <desc>H5P provides interactive activities, but as a communication tool is one way only</desc>
+    </Comms>
+    <Create>
+        <status>maybe</status>
+        <desc>The new core content bank can be set up to allow learners to create resources</desc>
+    </Create>
+    <Blooms>
+        <status>maybe</status>
+        <desc>6/6 Can do all 6 but requires you to creatively design a learning object.</desc>
+    </Blooms>
+    <additional>H5P is now also in Core Moodle, including a content bank. Core features will eventually replace the plugin entirely.</additional>
+    <additionalurl>https://moodle.org/plugins/mod_hvp</additionalurl>
+</tool>
+
+<tool> <!-- Copy this for each tool -->
+    <toolname>Mahara (linked)</toolname>
+    <tooldesc>Separate tool, but powerful when linked as a Mahoodle</tooldesc>
+    <source>Catalyst</source> <!-- Core, Plugin, Catalyst -->
+    <Ease>
+        <status>yes</status> <!-- yes, maybe, no -->
+        <desc>Complex to set up the link, but once created, use is straightforward</desc>
+    </Ease>
+    <Xfer>
+        <status>maybe</status>
+        <desc>Portfolio templates, or tutor's own pages can be used to share information</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Integrates fully with Moodle assignments - use for portofio type submissions</desc>
+    </Assess>
+    <Comms>
+        <status>yes</status>
+        <desc>Enables group sharing and comments on curated pages</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Groups can be used for collaboration among users</desc>
+    </Create>
+    <Blooms>
+        <status>yes</status>
+        <desc>6/6 Remember, Understand, Apply, Analyse, Evaluate, Create</desc>
+    </Blooms>
+    <additional>Mahara provides more than an assignment submission type when linked with Moodle and can be used to deep link to content pages as well. It provides a user centric approach to content curation, rather than course based</additional>
+    <additionalurl>https://moodle.org/plugins/assignsubmission_mahara</additionalurl>
+</tool>
+
+<tool> <!-- Copy this for each tool -->
+    <toolname>Overflow</toolname>
+    <tooldesc>A forum type, though as a separate activity</tooldesc>
+    <source>Plugin</source> <!-- Core, Plugin, Catalyst -->
+    <Ease>
+        <status>yes</status> <!-- yes, maybe, no -->
+        <desc>Straightforward to set up</desc>
+    </Ease>
+    <Xfer>
+        <status>maybe</status>
+        <desc>Share resources as links or files. High message volume? Risk of losing info.</desc>
+    </Xfer>
+    <Assess>
+        <status>maybe</status>
+        <desc>Overflow Forum allows post rating so enables formative peer evaluation of comments</desc>
+    </Assess>
+    <Comms>
+        <status>yes</status>
+        <desc>Yes. Students communicate with you and peers. Interact as a class or in groups.</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Yes. Students can collaborate and explore topics, discuss them and write together.</desc>
+    </Create>
+    <Blooms>
+        <status>yes</status>
+        <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
+    </Blooms>
+    <additional></additional>
+    <additionalurl>https://moodle.org/plugins/mod_moodleoverflow</additionalurl>
+</tool>
+
+<tool> <!-- Copy this for each tool -->
+    <toolname>PDF Annotation</toolname>
+    <tooldesc>Annotate and share PDF resources</tooldesc>
+    <source>Plugin</source> <!-- Core, Plugin, Catalyst -->
+    <Ease>
+        <status>yes</status> <!-- yes, maybe, no -->
+        <desc>Simply upload the pdf file within the activity on the course page</desc>
+    </Ease>
+    <Xfer>
+        <status>yes</status>
+        <desc>PDF files are an information transfer tool</desc>
+    </Xfer>
+    <Assess>
+        <status>yes</status>
+        <desc>Allows students to insert questions and comments and so may be used for formative assessment</desc>
+    </Assess>
+    <Comms>
+        <status>yes</status>
+        <desc>Allows users to add questions and comments on pdf documents, reading and answering</desc>
+    </Comms>
+    <Create>
+        <status>yes</status>
+        <desc>Cocreate annotations to the initial resource</desc>
+    </Create>
+    <Blooms>
+        <status>yes</status>
+        <desc>5/6 Understand, Apply, Analyse, Evaluate, Create</desc>
+    </Blooms>
+    <additional>The PDF annotator allows students to insert questions, comments and remarks on learning materials in PDF format directly into the document. Since all students, lecturers and tutors can read and answer the questions and comments asked, it is made easier to clarify open questions on lecture slides, scripts and other PDF learning materials quickly and in a concrete context.</additional>
+    <additionalurl>https://moodle.org/plugins/mod_pdfannotator</additionalurl>
 </tool>
 </tools>
