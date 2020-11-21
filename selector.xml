@@ -1,50 +1,75 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<toplevel>
-    <action>
-        <label>Transfer</label>
-        <level2a>
-            <label>External</label>
-            <result>url</result>
-        </level2a>
-        <level2b>
-            <label>Interactive</label>
-            <level3a>
-                <label>Guided</label>
-                <result>Lesson</result>
-            </level3a>
-            <level3b>
-                <label>Updatable</label>
-                <result>Glossary</result>
-            </level3b>
-            <level3c>
-                <label>Multimedia</label>
-                <level4a>
-                    <label>Embedded</label>
-                    <result>H5P</result>
-                </level4a>
-                <level4b>
-                    <label>Externally created</label>
-                    <result>SCORM</result>
-                </level4b>
-            </level3c>
-        </level2b>
-        <level2c>
-            <label>Static</label>
-            <level3a>
-                <label>Printable</label>
-                <result>File</result>
-            </level3a>
-            <level3b>
-                <label>Within the VLE</label>
-                <result>Page</result>
-            </level3b>
-            <level3c>
-                <label>Several chapters</label>
-                <result>Book</result>
-            </level3c>
-            <level3d>
-                <label>Many unlinked pages</label>
-                <result>Folder</result>
-            </level3d>
-        </level2c>
-    </action>
+<levels>
+    <level>
+        <label>one</label>
+        <option>
+            <label>Transfer</label>
+            <level>
+                <label>two</label>
+                <option>
+                    <label>External</label>
+                    <result>url</result>
+                </option>
+                <option>
+                    <label>Interactive</label>
+                    <level>
+                        <label>three</label>
+                        <option>
+                            <label>Guided</label>
+                            <result>Lesson</result>
+                        </option>
+                        <option>
+                            <label>Updatable</label>
+                            <result>Glossary</result>
+                        </option>
+                        <option>
+                            <label>Multimedia</label>
+                            <level>
+                                <label>four</label>
+                                <option>
+                                    <label>Embedded</label>
+                                    <result>H5P</result>
+                                </option>
+                                <option>
+                                    <label>Externally created</label>
+                                    <result>SCORM</result>
+                                </option>
+                            </level>
+                        </option>
+                    </level>
+                </option>
+                <option>
+                    <label>Static</label>
+                    <level>
+                        <label>three</label>
+                        <option>
+                            <label>Printable</label>
+                            <result>File</result>
+                        </option>
+                        <option>
+                            <label>Within the VLE</label>
+                            <result>Page</result>
+                        </option>
+                        <option>
+                            <label>Several chapters</label>
+                            <result>Book</result>
+                        </option>
+                        <option>
+                            <label>Many unlinked pages</label>
+                            <result>Folder</result>
+                        </option>
+                    </level>
+                </option>
+            </level>
+        </option>
+        <option>
+            <label>Assess</label>
+        </option>
+        <option>
+            <label>Interact</label>
+        </option>
+        <option>
+            <label>CoCreate</label>
+        </option>
+    </level>
+</levels>
