@@ -17,7 +17,10 @@ $tools = json_decode($objJsonDocument, TRUE);
 ?>
 
     <body>
-        <?php include('nav.php'); ?>
+        <?php
+        $page="toolguide";
+        include('nav.php');
+        ?>
         <main role="main" class="maincontent container-fluid">
 
             <?php

@@ -8,7 +8,7 @@
                 <label>two</label>
                 <option>
                     <label>External</label>
-                    <result>url</result>
+                    <result>URL</result>
                 </option>
                 <option>
                     <label>Interactive</label>
@@ -64,12 +64,141 @@
         </option>
         <option>
             <label>Assess</label>
+            <level>
+                <label>two</label>
+                <option>
+                    <label>Offline</label>
+                    <result>Assignment</result>
+                </option>
+                <option>
+                    <label>Testing</label>
+                    <level>
+                        <label>three</label>
+                        <option>
+                            <label>Quick test</label>
+                            <result>Choice</result>
+                        </option>
+                        <option>
+                            <label>Informal</label>
+                            <result>H5P</result>
+                        </option>
+                        <option>
+                            <label>In depth</label>
+                            <result>Quiz</result>
+                        </option>
+                    </level>
+                </option>
+                <option>
+                    <label>Understanding</label>
+                    <result>Lesson</result>
+                </option>
+                <option>
+                    <label>Portfolio</label>
+                    <result>Mahara</result>
+                </option>
+                <option>
+                    <label>Self</label>
+                    <level>
+                        <label>three</label>
+                        <option>
+                            <label>Repeatable</label>
+                            <result>Quiz</result>
+                        </option>
+                        <option>
+                            <label>Peer</label>
+                            <result>Workshop</result>
+                        </option>
+                        <option>
+                            <label>Reflection</label>
+                            <result>Feedback</result>
+                        </option>
+                    </level>
+                </option>
+                <option>
+                    <label>Group</label>
+                    <level>
+                        <label>three</label>
+                        <option>
+                            <label>Collaborative</label>
+                            <result>Wiki</result>
+                        </option>
+                        <option>
+                            <label>Discussion</label>
+                            <level>
+                                <label>four</label>
+                                <option>
+                                    <label>Sync</label>
+                                    <result>Chat</result>
+                                </option>
+                                <option>
+                                    <label>Async</label>
+                                    <result>Forum</result>
+                                </option>
+                            </level>
+                        </option>
+                    </level>
+                </option>
+            </level>
         </option>
         <option>
             <label>Interact</label>
+            <level>
+                <label>two</label>
+                <option>
+                    <label>QA</label>
+                    <result>Chat</result>
+                </option>
+                <option>
+                    <label>Groups</label>
+                    <level>
+                        <label>three</label>
+                        <option>
+                            <label>Small</label>
+                            <level>
+                                <label>four</label>
+                                <option>
+                                    <label>Synchronous</label>
+                                    <result>Chat</result>
+                                </option>
+                                <option>
+                                    <label>ASynchronous</label>
+                                    <result>Forum</result>
+                                </option>
+                            </level>
+                        </option>
+                        <option>
+                            <label>Large</label>
+                            <result>Forum</result>
+                        </option>
+                    </level>
+                </option>
+                <option>
+                    <label>Whole Cohort</label>
+                    <result>Forum</result>
+                </option>
+                <option>
+                    <label>Video</label>
+                    <result>WebConference</result>
+                </option>
+            </level>
         </option>
         <option>
             <label>CoCreate</label>
+            <level>
+                <label>two</label>
+                <option>
+                    <label>Multiple authors</label>
+                    <result>Wiki</result>
+                </option>
+                <option>
+                    <label>Collected data</label>
+                    <result>Database</result>
+                </option>
+                <option>
+                    <label>Curated collection</label>
+                    <result>Glossary</result>
+                </option>
+            </level>
         </option>
     </level>
 </levels>

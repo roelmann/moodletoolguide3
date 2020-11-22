@@ -6,6 +6,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <?php if ($page === "toolguide") {?>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link showall" href="#">All<span class="sr-only">(current)</span></a>
@@ -20,6 +21,7 @@
                 <a class="nav-link showplugin" href="#">3rd Party</a>
             </li>
         </ul>
+    <?php } ?>
 
         <ul class="navbar-nav ml-auto mr-4">
             <li class="nav-item dropdown">
@@ -28,9 +30,14 @@
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <!-- Fetch css swatch files as list -->
                     <?php
-                    foreach (new DirectoryIterator('css') as $file) {                            if($file->isDot()) continue;
+                    foreach (new DirectoryIterator('css') as $file) {
+                        if($file->isDot()) continue;
                         $swatch = explode('.', $file->getFilename());
-                        echo '<a class="dropdown-item" href="index.php?theme='.$swatch[0].'">';
+                        if ($page === "toolguide") {
+                            echo '<a class="dropdown-item" href="index.php?theme='.$swatch[0].'">';
+                        } else if ($page === "selector") {
+                            echo '<a class="dropdown-item" href="toolselector.php?theme='.$swatch[0].'">';
+                        }
                         echo $swatch[0];
                         echo '</a>';
                     }

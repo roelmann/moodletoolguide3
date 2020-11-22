@@ -705,7 +705,7 @@
 </tool>
 
 <tool> <!-- Copy this for each tool -->
-    <toolname>Mahara (linked)</toolname>
+    <toolname>Mahara</toolname>
     <tooldesc>Separate tool, but powerful when linked as a Mahoodle</tooldesc>
     <source>Catalyst</source> <!-- Core, Plugin, Catalyst -->
     <Ease>

@@ -45,5 +45,6 @@ if (isset($_GET['theme'])) {
             .toolrow .card-body .comment {display:none;}
             .titlecolumn .card-footer {display:none;}
         }
+        .hidden {display:none;}
         </style>
   </head>

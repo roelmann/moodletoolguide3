@@ -51,12 +51,12 @@
     <div class="col-lg-4 pr-0">
         <div>
             <div>
+                <p><img src="images/catalyst.png" alt="Catalyst Europe logo" style="float:left;padding-right:1rem;" width=200px >Updated as a Catathon Project at <a href="https://www.catalyst-eu.net/content/contact-us">Catalyst-EU</a>. November 2020.</p>
+                <p><br/></p>
                 <p>Adapted (2015) by Richard Oelmann (@richards_edtech) from the original <a href="images/MoodleToolGuideforTeachers_May2010_JS.pdf" alt="Moodle Tool Guide">Moodle Tool Guide</a> by Joyce Seitzinger (@catspyjamasnz) and the <a href="http://www.somerandomthoughts.com/blog/2012/03/15/a-moodle-2-version-of-the-moodle-tool-guide/" alt="Moodle2 Tool Guide">Moodle 2 Tool Guide</a> by Gavin Henrick (@ghenrick)</p>
                 <p>The Moodle Tool Selector is based on the concepts and the overview of the Tool Selection Decision Tree by Alison Ruth, sadly no longer available at the link I originally found it at.</p>
                 <br/>
                 <p><img src="images/by-nc-sa.png" alt="Creative Commons licence - by, nc, sa" style="float:left;padding-right:1rem;"  width=200px> As defined in the original, this work is released under a <a href="https://creativecommons.org/licenses/">Creative Commons, with attribution, non-commercial, share-alike licence.</a></p>
-                <p><br/></p>
-                <p><img src="images/catalyst.png" alt="Catalyst Europe logo" style="float:left;padding-right:1rem;" width=200px >Updated as a Catathon Project at <a href="https://www.catalyst-eu.net/content/contact-us">Catalyst-EU</a>. November 2020.</p>
             </div>
         </div>
     </div>
