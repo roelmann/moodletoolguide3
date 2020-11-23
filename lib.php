@@ -13,13 +13,6 @@ function tooldetail($t, $ped) {
         $icon = "circle";
         $class = "";
     }
-    tooldetail($t, 'Ease');
-    tooldetail($t, 'Xfer');
-    tooldetail($t, 'Assess');
-    tooldetail($t, 'Comms');
-    tooldetail($t, 'Create');
-    tooldetail($t, 'Blooms');
-
     switch ($ped) {
         case 'Ease':
             $pedtitle="Ease of use";
