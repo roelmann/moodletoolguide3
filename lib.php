@@ -13,9 +13,38 @@ function tooldetail($t, $ped) {
         $icon = "circle";
         $class = "";
     }
+    tooldetail($t, 'Ease');
+    tooldetail($t, 'Xfer');
+    tooldetail($t, 'Assess');
+    tooldetail($t, 'Comms');
+    tooldetail($t, 'Create');
+    tooldetail($t, 'Blooms');
+
+    switch ($ped) {
+        case 'Ease':
+            $pedtitle="Ease of use";
+        break;
+        case 'Xfer':
+            $pedtitle="Information transfer";
+        break;
+        case 'Assess':
+            $pedtitle="Assessing";
+        break;
+        case 'Comms':
+            $pedtitle="Communication and Interaction";
+        break;
+        case 'Create':
+            $pedtitle="Co-Creation";
+        break;
+        case 'Blooms':
+            $pedtitle="Bloom's";
+        break;
+        default:
+            $pedtitle="";
+    }
     ?>
     <div class="card border-dark <?php echo $class;?> text-white">
-        <h6 class="card-header text-center">Ease of use</h6>
+        <h6 class="card-header text-center"><?php echo $pedtitle;?></h6>
         <div class="card-body">
             <i class="fa fa-3x <?php echo $icon;?>" data-toggle="popover"
                 data-content="<?php echo $t[$ped]['desc'];?>"></i>
