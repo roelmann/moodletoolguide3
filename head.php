@@ -31,7 +31,6 @@ if (isset($_GET['theme'])) {
         .toolrow{margin-top:1rem;}
         .card{box-shadow: 2px 2px 4px 0px #f2f2f2;border-width:3px !important;}
         .card-footer{padding-bottom:0;padding-top:0;}
-        .maincontent {margin-top:85px;}
         .hiderow{display:none;}
         footer{margin-top:2rem;padding-top:2rem;padding-bottom:2rem;}
         .key .card-heading{padding:1rem;}

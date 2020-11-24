@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Moodle ToolGuide 3</a>
+    <a class="navbar-brand" href="index.php?theme=<?php echo $theme;?>">Moodle ToolGuide 3</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
         aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
                         if($file->isDot()) continue;
                         $swatch = explode('.', $file->getFilename());
                         if ($page === "toolguide") {
-                            echo '<a class="dropdown-item" href="index.php?theme='.$swatch[0].'">';
+                            echo '<a class="dropdown-item" href="toolguide.php?theme='.$swatch[0].'">';
                         } else if ($page === "selector") {
                             echo '<a class="dropdown-item" href="toolselector.php?theme='.$swatch[0].'">';
                         }

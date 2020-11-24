@@ -41,9 +41,20 @@ foreach ($tools as $ts) {
         $page="selector";
         include('nav.php');
         ?>
+        <header>
+            <div class="jumbotron" style="height:175px";>
+                <img src="images/moodlelogo.png" width="150px" height="100px" style="float:left;">
+                <div style="float:left;margin-left:30px;">
+                    <h1>Moodle Tool Selector</h1>
+                    <a href="toolguide.php?theme=<?php echo $theme;?>" title="toolguide link">
+                        <i class="fa fa-2x fa-reply">&nbsp;</i>Go To Tool Guide
+                    </a>
+                </div>
+            </div>
+        </header>
+
         <main role="main" class="maincontent container-fluid">
             <?php
-            echo '<p></br><hr></p>';
 
             foreach ($selection as $opt0) {
                 // Level One.
@@ -60,7 +71,7 @@ foreach ($tools as $ts) {
                         // Check if any results declared.
                         if (isset($opt1['result'])) {
                             $result = $opt1['result'];
-                            result("second", $opt1['label'], $tool[$result]);
+                            result("second", $opt1['label'], $tool[$result], $theme);
                         }
                         // Display next row of options.
                         if (isset($opt1['level']['label']) && $opt1['level']['label'] === 'two') {
@@ -70,7 +81,7 @@ foreach ($tools as $ts) {
                                 // Level Three.
                                 if (isset($opt2['result'])) {
                                     $result = $opt2['result'];
-                                    result("third", $opt2['label'], $tool[$result]);
+                                    result("third", $opt2['label'], $tool[$result], $theme);
                                 }
                                 if (isset($opt2['level']['label']) && $opt2['level']['label'] === 'three') {
                                     label2("third", $opt2['label'], $opt2['level']['option']);
@@ -79,7 +90,7 @@ foreach ($tools as $ts) {
                                         // Level Four.
                                         if (isset($opt3['result'])) {
                                             $result = $opt3['result'];
-                                            result("fourth", $opt3['label'], $tool[$result]);
+                                            result("fourth", $opt3['label'], $tool[$result], $theme);
                                         }
                                         if (isset($opt3['level']['label']) && $opt3['level']['label'] === 'four') {
                                             label2("fourth", $opt3['label'], $opt3['level']['option']);
@@ -88,7 +99,7 @@ foreach ($tools as $ts) {
                                                 // Level Five.
                                                 if (isset($opt4['result'])) {
                                                     $result = $opt4['result'];
-                                                    result("fifth", $opt4['label'], $tool[$result]);
+                                                    result("fifth", $opt4['label'], $tool[$result], $theme);
                                                 }
                                                 if (isset($opt4['level']['label']) && $opt4['level']['label'] === 'five') {
                                                     label2("fifth", $opt4['label'], $opt4['level']['option']);
@@ -97,7 +108,7 @@ foreach ($tools as $ts) {
                                                         // Level Six.
                                                         if (isset($opt5['result'])) {
                                                             $result = $opt5['result'];
-                                                            result("sixth", $opt5['label'], $tool[$result]);
+                                                            result("sixth", $opt5['label'], $tool[$result], $theme);
                                                         }
                                                         if (isset($opt5['level']['label']) && $opt5['level']['label'] === 'six') {
                                                             label2("sixth", $opt5['label'], $opt5['level']['option']);
@@ -106,7 +117,7 @@ foreach ($tools as $ts) {
                                                                 // Level Seven.
                                                                 if (isset($opt6['result'])) {
                                                                     $result = $opt6['result'];
-                                                                    result("seventh", $opt6['label'], $tool[$result]);
+                                                                    result("seventh", $opt6['label'], $tool[$result], $theme);
                                                                 }
                                                                 if (isset($opt6['level']['label']) && $opt6['level']['label'] === 'seven') {
                                                                     label2("seventh", $opt6['label'], $opt6['level']['option']);

@@ -8,14 +8,14 @@ function label($label) {
     echo '</div>';
 }
 
-function result($level, $from, $tool){
+function result($level, $from, $tool, $theme){
     $from = str_replace(" ", "_", $from);
     $result = str_replace(" ", "_", $tool['toolname']);
     echo '<div class="'.$level.'level from'.$from.' result'.$result.' card-deck m-4 hidden ">';
         echo '<div class="card result'.$result.' bg-dark text-white">';
             tooltableheader();
             echo '<div class="card-deck toolrow">';
-                tooltitle($tool);
+                tooltitle($tool, $theme);
                 tooldetail($tool, 'Ease');
                 tooldetail($tool, 'Xfer');
                 tooldetail($tool, 'Assess');

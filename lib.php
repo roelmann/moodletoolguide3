@@ -124,6 +124,7 @@ function tooltitle($t, $theme) {
             <input type="hidden" name="Blooms_desc" value="<?php echo $t['Blooms']['desc'];?>">
             <input type="hidden" name="additional" value="<?php echo $t['additional'];?>">
             <input type="hidden" name="additionalurl" value="<?php echo $t['additionalurl'];?>">
+            <input type="hidden" name="theme" value="<?php echo $theme;?>">
             <button type="submit" class="bg-dark border-0 w-100">
 
             <div class="card-body text-light" style="width:100%">

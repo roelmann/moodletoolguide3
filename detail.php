@@ -19,17 +19,27 @@ $tooltype['Blooms']['status']=$_POST['Blooms_status'];
 $tooltype['Blooms']['desc']=$_POST['Blooms_desc'];
 $tooltype['additional']=$_POST['additional'];
 $tooltype['additionalurl']=$_POST['additionalurl'];
-
+$theme=$_POST['theme'];
 ?>
 <body>
     <?php
     $page = "detail";
     include('nav.php');
     ?>
+    <header>
+        <div class="jumbotron" style="height:175px";>
+            <img src="images/moodlelogo.png" width="150px" height="100px" style="float:left;">
+            <div style="float:left;margin-left:30px;">
+                <h1>Moodle Toolguide</h1>
+                <a href="toolguide.php?theme=<?php echo $theme;?>" title="toolselector link">
+                    <i class="fa fa-2x fa-reply">&nbsp;</i>
+                    Back to Tool Guide
+                </a>
+            </div>
+        </div>
+    </header>
+
     <main role="main" class="maincontent container-fluid">
-        <a href="index.php">
-			<i class="fa fa-2x fa-reply">Return to Main Page</i>
-		</a>
         <div class="mb-4">&nbsp;</div>
         <?php
         tooltableheader();
