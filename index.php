@@ -31,7 +31,7 @@ $tools = json_decode($objJsonDocument, TRUE);
                 <div class="card-deck toolrow <?php echo 'source'.$t['source'];?> showrow">
 
                     <?php
-                    tooltitle($t);
+                    tooltitle($t, $theme);
                     tooldetail($t, 'Ease');
                     tooldetail($t, 'Xfer');
                     tooldetail($t, 'Assess');

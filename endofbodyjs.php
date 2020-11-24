@@ -5,6 +5,48 @@
     $(function () {
         $('[data-toggle="popover"]').popover()
     });
+    $('.darktext').on('click',function(){
+        $('.darktext').addClass('hidden');
+        $('.darktext').removeClass('show');
+        $('.lighttext').addClass('show');
+        $('.lighttext').removeClass('hidden');
+        $('.text-white').addClass('text-dark');
+        $('.text-white').removeClass('text-white');
+    });
+    $('.lighttext').on('click',function(){
+        $('.lighttext').addClass('hidden');
+        $('.lighttext').removeClass('show');
+        $('.darktext').addClass('show');
+        $('.darktext').removeClass('hidden');
+        $('.text-dark').addClass('text-white');
+        $('.text-dark').removeClass('text-dark');
+    });
+    $('.outlineonly').on('click',function(){
+        $('.cardbackground').removeClass('hidden');
+        $('.cardbackground').addClass('show');
+        $('.outlineonly').removeClass('show');
+        $('.outlineonly').addClass('hidden');
+        $('.border-dark').removeClass('border-dark');
+        $('.bg-success').addClass('border-success');
+        $('.bg-success').removeClass('bg-success');
+        $('.bg-warning').addClass('border-warning');
+        $('.bg-warning').removeClass('bg-warning');
+        $('.bg-danger').addClass('border-danger');
+        $('.bg-danger').removeClass('bg-danger');
+    });
+    $('.cardbackground').on('click',function(){
+        $('.cardbackground').addClass('hidden');
+        $('.cardbackground').removeClass('show');
+        $('.outlineonly').addClass('show');
+        $('.outlineonly').removeClass('hidden');
+        $('.border-success').addClass('border-dark bg-success');
+        $('.border-warning').addClass('border-dark bg-warning');
+        $('.border-danger').addClass('border-dark bg-danger');
+        $('.border-success').removeClass('border-success');
+        $('.border-warning').removeClass('border-warning');
+        $('.border-danger').removeClass('border-danger');
+    });
+
     $('.showall').on('click',function(){
         $('.toolrow').removeClass('showrow');
         $('.toolrow').removeClass('hiderow');

@@ -24,6 +24,20 @@
     <?php } ?>
 
         <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item">
+                <a class="nav-link outlineonly" href="#">Card outline only</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link cardbackground hidden" href="#">Card background colours</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link lighttext hidden" href="#">Light text</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link darktext" href="#">Dark text</a>
+            </li>
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Themes</a>

@@ -101,11 +101,11 @@ function tooltableheader() {
     </div>
 <?php
 }
-function tooltitle($t) {
+function tooltitle($t, $theme) {
 ?>
 
     <div class="card border-dark titlecolumn">
-        <form action="detail.php" method="post">
+        <form action="detail.php?theme=<?php echo $theme;?>" method="post">
 
             <input type="hidden" name="toolname" value="<?php echo $t['toolname'];?>">
             <input type="hidden" name="tooldesc" value="<?php echo $t['tooldesc'];?>">

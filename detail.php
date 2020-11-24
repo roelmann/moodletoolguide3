@@ -22,7 +22,10 @@ $tooltype['additionalurl']=$_POST['additionalurl'];
 
 ?>
 <body>
-    <?php include('nav.php'); ?>
+    <?php
+    $page = "detail";
+    include('nav.php');
+    ?>
     <main role="main" class="maincontent container-fluid">
         <a href="index.php">
 			<i class="fa fa-2x fa-reply">Return to Main Page</i>
@@ -33,7 +36,7 @@ $tooltype['additionalurl']=$_POST['additionalurl'];
         ?>
         <div class="card-deck toolrow <?php echo 'source'.$tooltype['source'];?> showrow">
             <?php
-            tooltitle($tooltype);
+            tooltitle($tooltype, $theme);
             tooldetail($tooltype, 'Ease');
             tooldetail($tooltype, 'Xfer');
             tooldetail($tooltype, 'Assess');
