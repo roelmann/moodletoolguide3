@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 if (isset($_GET['theme'])) {
     $theme = htmlspecialchars($_GET['theme']);
 } else {
-    $theme = 'slate';
+    $theme = 'cerulean';
 }
 ?>
   <head>
