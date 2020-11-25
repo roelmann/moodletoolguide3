@@ -50,6 +50,17 @@ foreach ($tools as $ts) {
                         <i class="fa fa-2x fa-reply">&nbsp;</i>Go To Tool Guide
                     </a>
                 </div>
+                <div style="float:right;">
+                    <a href="images/toolselectormap.png" target="_blank" title="toolguide link">
+                        <i class="fa fa-2x fa-map-o">&nbsp;</i>
+                        Tool Selector mindmap png
+                    </a>
+                    <p><br></p>
+                    <a href="images/toolselector.drawio" target="_blank" title="toolguide link">
+                        <i class="fa fa-2x fa-cloud-download">&nbsp;</i>
+                        Tool Selector draw.io file
+                    </a>
+                </div>
             </div>
         </header>
 
@@ -140,7 +151,7 @@ foreach ($tools as $ts) {
         </main>
 
         <?php
-        include('mainfooter.php');
+        include('selectorfooter.php');
         include('endofbodyjs.php');
         ?>
     </body>

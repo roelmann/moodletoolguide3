@@ -172,7 +172,7 @@
         // Sow next row.
         $('.fromGuided').removeClass('hidden');$('.fromGuided').addClass('showlevel');
     });
-    $('#Updatable').on('click',function(){
+    $('#Searchable').on('click',function(){
         //Reset all buttons to dark.
         $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
         // Reset all rows to hidden.
@@ -184,9 +184,9 @@
         $('#Transfer').removeClass('btn-dark');$('#Transfer').addClass('btn-success');
         $('#Interactive').removeClass('btn-dark');$('#Interactive').addClass('btn-success');
         // Show this option.
-        $('#Updatable').removeClass('btn-dark');$('#Updatable').addClass('btn-success');
+        $('#Searchable').removeClass('btn-dark');$('#Searchable').addClass('btn-success');
         // Sow next row.
-        $('.fromUpdatable').removeClass('hidden');$('.fromUpdatable').addClass('showlevel');
+        $('.fromSearchable').removeClass('hidden');$('.fromSearchable').addClass('showlevel');
     });
     $('#Multimedia').on('click',function(){
         //Reset all buttons to dark.
@@ -204,7 +204,7 @@
         // Sow next row.
         $('.fromMultimedia').removeClass('hidden');$('.fromMultimedia').addClass('showlevel');
     });
-    $('#Embedded').on('click',function(){
+    $('#Simple_WYSIWYG').on('click',function(){
         //Reset all buttons to dark.
         $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
         // Reset all rows to hidden.
@@ -218,10 +218,29 @@
         $('#Interactive').removeClass('btn-dark');$('#Interactive').addClass('btn-success');
         $('#Multimedia').removeClass('btn-dark');$('#Multimedia').addClass('btn-success');
         // Show this option.
-        $('#Embedded').removeClass('btn-dark');$('#Embedded').addClass('btn-success');
+        $('#Simple_WYSIWYG').removeClass('btn-dark');$('#Simple_WYSIWYG').addClass('btn-success');
         // Sow next row.
-        $('.fromEmbedded').removeClass('hidden');$('.fromEmbedded').addClass('showlevel');
+        $('.fromSimple_WYSIWYG').removeClass('hidden');$('.fromSimple_WYSIWYG').addClass('showlevel');
     });
+    $('#Multiple_types').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous row(s).
+        $('.fromTransfer').removeClass('hidden');$('.fromTransfer').addClass('showlevel');
+        $('.fromInteractive').removeClass('hidden');$('.fromInteractive').addClass('showlevel');
+        $('.fromMultimedia').removeClass('hidden');$('.fromMultimedia').addClass('showlevel');
+        // Show correct option on previous row(s).
+        $('#Transfer').removeClass('btn-dark');$('#Transfer').addClass('btn-success');
+        $('#Interactive').removeClass('btn-dark');$('#Interactive').addClass('btn-success');
+        $('#Multimedia').removeClass('btn-dark');$('#Multimedia').addClass('btn-success');
+        // Show this option.
+        $('#Multiple_types').removeClass('btn-dark');$('#Multiple_types').addClass('btn-success');
+        // Sow next row.
+        $('.fromMultiple_types').removeClass('hidden');$('.fromMultiple_types').addClass('showlevel');
+    });
+
     $('#Externally_created').on('click',function(){
         //Reset all buttons to dark.
         $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
@@ -473,6 +492,324 @@
         $('#ASynchronous').removeClass('btn-dark');$('#ASynchronous').addClass('btn-success');
         // Show next row.
         $('.fromASynchronous').removeClass('hidden');$('.fromASynchronous').addClass('showlevel');
+    });
+    $('#Offline').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Interact').addClass('btn-success');
+        // Show this row.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Offline').removeClass('btn-dark');$('#Offline').addClass('btn-success');
+        // Show next row.
+        $('.fromOffline').removeClass('hidden');$('.fromOffline').addClass('showlevel');
+    });
+    $('#Offline').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Interact').addClass('btn-success');
+        // Show this row.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Offline').removeClass('btn-dark');$('#Offline').addClass('btn-success');
+        // Show next row.
+        $('.fromOffline').removeClass('hidden');$('.fromOffline').addClass('showlevel');
+    });
+    $('#Testing').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        // Show this row.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Testing').removeClass('btn-dark');$('#Testing').addClass('btn-success');
+        // Show next row.
+        $('.fromTesting').removeClass('hidden');$('.fromTesting').addClass('showlevel');
+    });
+    $('#Understanding').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Interact').addClass('btn-success');
+        // Show this row.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Understanding').removeClass('btn-dark');$('#Understanding').addClass('btn-success');
+        // Show next row.
+        $('.fromUnderstanding').removeClass('hidden');$('.fromUnderstanding').addClass('showlevel');
+    });
+    $('#Portfolio').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Interact').addClass('btn-success');
+        // Show this row.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Portfolio').removeClass('btn-dark');$('#Portfolio').addClass('btn-success');
+        // Show next row.
+        $('.fromPortfolio').removeClass('hidden');$('.fromPortfolio').addClass('showlevel');
+    });
+    $('#Learner_Centred').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        // Show this row.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Learner_Centred').removeClass('btn-dark');$('#Learner_Centred').addClass('btn-success');
+        // Show next row.
+        $('.fromLearner_Centred').removeClass('hidden');$('.fromLearner_Centred').addClass('showlevel');
+    });
+    $('#Group').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        // Show this row.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Group').removeClass('btn-dark');$('#Group').addClass('btn-success');
+        // Show next row.
+        $('.fromGroup').removeClass('hidden');$('.fromGroup').addClass('showlevel');
+    });
+    $('#Collaborative').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Group').removeClass('btn-dark');$('#Group').addClass('btn-success');
+        // Show this row.
+        $('.fromGroup').removeClass('hidden');$('.fromGroup').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Collaborative').removeClass('btn-dark');$('#Collaborative').addClass('btn-success');
+        // Show next row.
+        $('.fromCollaborative').removeClass('hidden');$('.fromCollaborative').addClass('showlevel');
+    });
+    $('#Discussion').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Group').removeClass('btn-dark');$('#Group').addClass('btn-success');
+        // Show this row.
+        $('.fromGroup').removeClass('hidden');$('.fromGroup').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Discussion').removeClass('btn-dark');$('#Discussion').addClass('btn-success');
+        // Show next row.
+        $('.fromDiscussion').removeClass('hidden');$('.fromDiscussion').addClass('showlevel');
+    });
+    $('#Sync').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        $('.fromGroup').removeClass('hidden');$('.fromGroup').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Group').removeClass('btn-dark');$('#Group').addClass('btn-success');
+        $('#Discussion').removeClass('btn-dark');$('#Discussion').addClass('btn-success');
+        // Show this row.
+        $('.fromDiscussion').removeClass('hidden');$('.fromDiscussion').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Sync').removeClass('btn-dark');$('#Sync').addClass('btn-success');
+        // Show next row.
+        $('.fromSync').removeClass('hidden');$('.fromSync').addClass('showlevel');
+    });
+    $('#Async').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        $('.fromGroup').removeClass('hidden');$('.fromGroup').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Group').removeClass('btn-dark');$('#Group').addClass('btn-success');
+        $('#Discussion').removeClass('btn-dark');$('#Discussion').addClass('btn-success');
+        // Show this row.
+        $('.fromDiscussion').removeClass('hidden');$('.fromDiscussion').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Async').removeClass('btn-dark');$('#Async').addClass('btn-success');
+        // Show next row.
+        $('.fromAsync').removeClass('hidden');$('.fromAsync').addClass('showlevel');
+    });
+    $('#Single_option').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        $('.fromTesting').removeClass('hidden');$('.fromTesting').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Testing').removeClass('btn-dark');$('#Testing').addClass('btn-success');
+        // Show this row.
+        $('.fromTesting').removeClass('hidden');$('.fromTesting').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Single_option').removeClass('btn-dark');$('#Single_option').addClass('btn-success');
+        // Show next row.
+        $('.fromSingle_option').removeClass('hidden');$('.fromSingle_option').addClass('showlevel');
+    });
+    $('#_Multimedia_').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Testing').removeClass('btn-dark');$('#Testing').addClass('btn-success');
+        // Show this row.
+        $('.fromTesting').removeClass('hidden');$('.fromTesting').addClass('showlevel');
+        // Show correct option on this row.
+        $('#_Multimedia_').removeClass('btn-dark');$('#_Multimedia_').addClass('btn-success');
+        // Show next row.
+        $('.from_Multimedia_').removeClass('hidden');$('.from_Multimedia_').addClass('showlevel');
+    });
+    $('#In_depth').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Testing').removeClass('btn-dark');$('#Testing').addClass('btn-success');
+        // Show this row.
+        $('.fromTesting').removeClass('hidden');$('.fromTesting').addClass('showlevel');
+        // Show correct option on this row.
+        $('#In_depth').removeClass('btn-dark');$('#In_depth').addClass('btn-success');
+        // Show next row.
+        $('.fromIn_depth').removeClass('hidden');$('.fromIn_depth').addClass('showlevel');
+    });
+    $('#Repeatable').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Learner_Centred').removeClass('btn-dark');$('#Learner_Centred').addClass('btn-success');
+        // Show this row.
+        $('.fromLearner_Centred').removeClass('hidden');$('.fromLearner_Centred').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Repeatable').removeClass('btn-dark');$('#Repeatable').addClass('btn-success');
+        // Show next row.
+        $('.fromRepeatable').removeClass('hidden');$('.fromRepeatable').addClass('showlevel');
+    });
+    $('#Peer_Assessed').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Learner_Centred').removeClass('btn-dark');$('#Learner_Centred').addClass('btn-success');
+        // Show this row.
+        $('.fromLearner_Centred').removeClass('hidden');$('.fromLearner_Centred').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Peer_Assessed').removeClass('btn-dark');$('#Peer_Assessed').addClass('btn-success');
+        // Show next row.
+        $('.fromPeer_Assessed').removeClass('hidden');$('.fromPeer_Assessed').addClass('showlevel');
+    });
+    $('#Reflection').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Learner_Centred').removeClass('btn-dark');$('#Learner_Centred').addClass('btn-success');
+        // Show this row.
+        $('.fromLearner_Centred').removeClass('hidden');$('.fromLearner_Centred').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Reflection').removeClass('btn-dark');$('#Reflection').addClass('btn-success');
+        // Show next row.
+        $('.fromReflection').removeClass('hidden');$('.fromReflection').addClass('showlevel');
+    });
+    $('#Spot').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        $('.fromLearner_Centred').removeClass('hidden');$('.fromLearner_Centred').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Learner_Centred').removeClass('btn-dark');$('#Learner_Centred').addClass('btn-success');
+        $('#Reflection').removeClass('btn-dark');$('#Reflection').addClass('btn-success');
+        // Show this row.
+        $('.fromReflection').removeClass('hidden');$('.fromReflection').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Spot').removeClass('btn-dark');$('#Spot').addClass('btn-success');
+        // Show next row.
+        $('.fromSpot').removeClass('hidden');$('.fromSpot').addClass('showlevel');
+    });
+    $('#Over_time').on('click',function(){
+        //Reset all buttons to dark.
+        $('.btn-success').addClass('btn-dark');$('.btn-dark').removeClass('btn-success');
+        // Reset all rows to hidden.
+        $('.showlevel').addClass('hidden');$('.hidden').removeClass('showlevel');
+        // Show previous rows.
+        $('.fromAssess').removeClass('hidden');$('.fromSmall').addClass('showlevel');
+        $('.fromLearner_Centred').removeClass('hidden');$('.fromLearner_Centred').addClass('showlevel');
+        // Show correct option on previous rows.
+        $('#Assess').removeClass('btn-dark');$('#Assess').addClass('btn-success');
+        $('#Learner_Centred').removeClass('btn-dark');$('#Learner_Centred').addClass('btn-success');
+        $('#Reflection').removeClass('btn-dark');$('#Reflection').addClass('btn-success');
+        // Show this row.
+        $('.fromReflection').removeClass('hidden');$('.fromReflection').addClass('showlevel');
+        // Show correct option on this row.
+        $('#Over_time').removeClass('btn-dark');$('#Over_time').addClass('btn-success');
+        // Show next row.
+        $('.fromOver_time').removeClass('hidden');$('.fromOver_time').addClass('showlevel');
     });
 
 

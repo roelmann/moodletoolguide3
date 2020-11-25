@@ -19,7 +19,7 @@
                             <result>Lesson</result>
                         </option>
                         <option>
-                            <label>Updatable</label>
+                            <label>Searchable</label>
                             <result>Glossary</result>
                         </option>
                         <option>
@@ -27,7 +27,11 @@
                             <level>
                                 <label>four</label>
                                 <option>
-                                    <label>Embedded</label>
+                                    <label>Simple WYSIWYG</label>
+                                    <result>Page</result>
+                                </option>
+                                <option>
+                                    <label>Multiple types</label>
                                     <result>H5P</result>
                                 </option>
                                 <option>
@@ -75,11 +79,11 @@
                     <level>
                         <label>three</label>
                         <option>
-                            <label>Quick test</label>
+                            <label>Single option</label>
                             <result>Choice</result>
                         </option>
                         <option>
-                            <label>Informal</label>
+                            <label>_Multimedia_</label>
                             <result>H5P</result>
                         </option>
                         <option>
@@ -97,7 +101,7 @@
                     <result>Mahara</result>
                 </option>
                 <option>
-                    <label>Self</label>
+                    <label>Learner Centred</label>
                     <level>
                         <label>three</label>
                         <option>
@@ -105,12 +109,22 @@
                             <result>Quiz</result>
                         </option>
                         <option>
-                            <label>Peer</label>
+                            <label>Peer Assessed</label>
                             <result>Workshop</result>
                         </option>
                         <option>
                             <label>Reflection</label>
-                            <result>Feedback</result>
+                            <level>
+                                <label>four</label>
+                                <option>
+                                    <label>Spot</label>
+                                    <result>Feedback</result>
+                                </option>
+                                <option>
+                                    <label>Over time</label>
+                                    <result>Mahara</result>
+                                </option>
+                            </level>
                         </option>
                     </level>
                 </option>
