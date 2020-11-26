@@ -1,6 +1,6 @@
 <?php
-include('lib.php');
 include('head.php');
+include('lib.php');
 
 ?>
 <body>

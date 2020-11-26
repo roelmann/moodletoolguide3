@@ -1,10 +1,6 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 if (isset($_GET['theme'])) {
     $theme = htmlspecialchars($_GET['theme']);
 } else {
@@ -13,7 +9,8 @@ if (isset($_GET['theme'])) {
 ?>
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
